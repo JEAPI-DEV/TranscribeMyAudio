@@ -24,7 +24,7 @@ A simple tool to transcribe your voice or system audio to text.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/local-talking-llm.git
+git clone https://github.com/JEAPI-DEV/TranscribeMyAudio
 cd local-talking-llm
 ```
 
