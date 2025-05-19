@@ -1,0 +1,26 @@
+name: voice-assistant
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - pip=23.0
+  - numpy
+  - scipy
+  - alsa-lib
+  - ca-certificates
+  - openssl
+  - cuda-runtime
+  - pip:
+    - whisper
+    - rich
+    - aiohttp
+    - boto3
+    - certifi
+    - click
+    - colorama
+    - coremltools
+    - pydantic>=2.0
+    - pycparser
+    - requests 
